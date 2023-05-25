@@ -41,7 +41,7 @@ There were three models that were tested manually through trial and error, along
 **_Tuner Model:_** [Tuner Model](https://github.com/djthapa22/deep-learning-challenge/blob/main/Tuner%20Optimize/Deep_Learning_Optimize-Tuner.ipynb)
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why? <br>
-  *  Neurons:   Layers: 2 activation function: leaky_relu
+  *  Neurons: Variable with 16, 21,1,26,36;  Layers: 5;  Activation function: leaky_relu
   *  Rationale: Tuner would find the best model with iterative create_model function.
 * Were you able to achieve the target model performance?
   * No, it was still below 75%, but the highest of all my models; with an accuracy score of 73.36%. Knowing my hunch was correct that Leaky Relu was the better function to utilize
@@ -49,3 +49,4 @@ There were three models that were tested manually through trial and error, along
   *  If I were to repeat this process. Maybe increasing the layers and neurons values to higher number with my Tuner model.
 
 <ins> Summary:</ins>
+With the Tuner model  having the best accuracy result of 73.4%, I would not recommned using any of these models in order to make predictions on funding success.  Another learning was that increasing the layers or neuron complexity will not necessarily increase the prediction accuracy rates. Therefore, I would recreate the Tuner with additional functions, along with Leaky_Relu and slightly increase neuron and layer complexity to gain a accuracy over 90%. 
