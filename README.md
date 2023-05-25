@@ -23,14 +23,18 @@ There were three models that were tested manually through trial and error, along
 
 **_Model 2:_**
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-* Were you able to achieve the target model performance?
-* What steps did you take in your attempts to increase model performance?
+  * Layers: 6 hidden layers and one output layer; Neurons: First and 6th had 50 neurons each, while 2nd through 5th had 25 layers; function: Activation to 6th layer had Tanh, while last one was sigmoid due to probabilitistic output
+  * Rationale: I significantly increased the density of the architechture and wanted to see if Tanh would fare better.
+* Were you able to achieve the target model performance? <br> No, I had an accuracy score of 72.69%, which was worse than my base line model.
+* What steps did you take in your attempts to increase model performance? I wanted to further increase density of architechtrure and go back to Leaky_relu and Relu.
 
 
 **_Model 3:_**
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-* Were you able to achieve the target model performance?
-* What steps did you take in your attempts to increase model performance?
+ * Layers: 9 hidden layers and one output layer; Neurons: All hidden had 250 function: Activation and 9th was Relu, while remaining was Leaky_Relu. Finally,the last one was sigmoid due to probabilitistic output
+  * Rationale: I significantly increased the density of the architechture and thought a more complex neural network along with Relu/Leaky_Relu would get the numbers closer to 75%
+* Were you able to achieve the target model performance? <br> No, I had an accuracy score of 72.37%, which was even worse than my base line model and Model 2.
+* What steps did you take in your attempts to increase model performance? I learned that the complexity of the architecture may not be the solution and decided on using a tuner to find out the best way to get closest to the 75% mark!
 
 
 
