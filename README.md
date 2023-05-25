@@ -38,11 +38,14 @@ There were three models that were tested manually through trial and error, along
 
 
 
-**_Tuner Model:_**
+**_Tuner Model:_** [Tuner Model](https://github.com/djthapa22/deep-learning-challenge/blob/main/Tuner%20Optimize/Deep_Learning_Optimize-Tuner.ipynb)
 
-* How many neurons, layers, and activation functions did you select for your neural network model, and why?
+* How many neurons, layers, and activation functions did you select for your neural network model, and why? <br>
+  *  Neurons:   Layers: 2 activation function: leaky_relu
+  *  Rationale: Tuner would find the best model with iterative create_model function.
 * Were you able to achieve the target model performance?
+  * No, it was still below 75%, but the highest of all my models; with an accuracy score of 73.36%. Knowing my hunch was correct that Leaky Relu was the better function to utilize
 * What steps did you take in your attempts to increase model performance?
-
+  *  If I were to repeat this process. Maybe increasing the layers and neurons values to higher number with my Tuner model.
 
 <ins> Summary:</ins>
