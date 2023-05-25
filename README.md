@@ -12,9 +12,12 @@ Application type, Affiliation, Classfiication, use-case, organization, status, i
 <ins>Model setup:</ins> Compiling, Training, and Evaluating the Model <br>
 There were three models that were tested manually through trial and error, along with a final tuner method. They are descibed below:
 
-**_Model 1 Or Initial:_**
+**_Model 1 Or Initial:_** [Model1-Notebook]()
 * How many neurons, layers, and activation functions did you select for your neural network model, and why? <br>
-
+  * First Layer: Nuerons-10; Activation function: Relu
+  * Second Layer: Neurons- 8; hidden function: Leaky Relu
+  * Output Layer: Nueron- 1; Sigmoid layer with probability function
+  * Rationale: Starting off at a base level with begining architechture with leaky and relu to see performance baseline
 * Were you able to achieve the target model performance?
 * What steps did you take in your attempts to increase model performance?
 
